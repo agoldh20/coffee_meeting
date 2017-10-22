@@ -1,0 +1,1 @@
+Contact.create!(first_name: "John", last_name: "Jacobs", met: "yes", thank_you: "yes", followed_up: "no")
