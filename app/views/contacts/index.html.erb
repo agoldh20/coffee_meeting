@@ -1,5 +1,5 @@
 <h1>Coffee Meeting Contacts</h1>
 
 <% @contacts.each do |contact| %>
-  <h3><a href="/contacts/<%= contact.id %>"><%= contact.full_name  %></a> | <a href="mailto:<%= contact.email %>?Subject=Adam%20Goldwater,%20following%20up%20with%20you"><%= contact.email %></a> | <%= contact.company %> | Met?: <%= contact.met.capitalize %>| Thanked?: <%= contact.thank_you.capitalize %> | Followed Up?: <%= contact.followed_up.capitalize %>
+  <h3><a href="/contacts/<%= contact.id %>"><%= contact.full_name  %></a> | <a href="mailto:<%= contact.email %>?Subject=Adam%20Goldwater,%20following%20up%20with%20you"><%= contact.email %></a> | <%= contact.position %> @ <%= contact.company %> | Met?: <%= contact.met %> | Thanked?: <%= contact.thank_you.capitalize %> | Followed Up?: <%= contact.followed_up.capitalize %>
 <% end %>

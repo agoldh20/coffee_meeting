@@ -1,7 +1,23 @@
 <h1>Contact Show</h1>
 
-<h3>Name/Email: <a href="mailto:<%= @contact.email %>?Subject=Adam%20Goldwater,%20following%20up%20with%20you"><%= @contact.first_name %> <%= @contact.last_name %></a></h3>
-<h3>Company: <%= @contact.company %></h3>
-<h3>Met Yet? <%= @contact.met.capitalize %></h3>
+<h3>Name/Email: <a href="mailto:<%= @contact.email %>?Subject=Adam%20Goldwater,%20following%20up%20with%20you"><%= @contact.first_name.capitalize %> <%= @contact.last_name.capitalize %></a></h3>
+<h3>Position: <%= @contact.position.titleize unless @contact.position == nil %></h3>
+<h3>Company: <%= @contact.company.titleize %></h3>
+<h3>Met Yet? <%= @contact.met %></h3>
 <h3>Thanked Yet? <%= @contact.thank_you.capitalize %></h3>
 <h3>Followed Up Yet? <%= @contact.followed_up.capitalize %></h3>
+<% unless @contact.notes == nil %>
+  <h3>Notes:</h3> 
+  <% @contact.nice_notes.each do |note| %>
+    <ul>
+      <li><%= note %></li>
+    </ul>
+  <% end %>
+<% end %>
+<div>
+  <%= link_to "Update", "/contacts/#{@contact.id}/edit"%>
+</div>
+
+<div>
+  <%= link_to "Delete Contact", "/contacts/#{@contact.id}", method: :delete %>
+</div>
