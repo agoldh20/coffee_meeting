@@ -1,12 +1,12 @@
 <h1>Contact Show</h1>
 
 <h3>Name/Email: <a href="mailto:<%= @contact.email %>?Subject=Adam%20Goldwater,%20following%20up%20with%20you"><%= @contact.first_name.capitalize %> <%= @contact.last_name.capitalize %></a></h3>
-<h3>Position: <%= @contact.position.titleize unless @contact.position == nil %></h3>
+<h3>Position: <%= @contact.position.titleize if @contact.position %></h3>
 <h3>Company: <%= @contact.company.titleize %></h3>
 <h3>Met Yet? <%= @contact.met %></h3>
-<h3>Thanked Yet? <%= @contact.thank_you.capitalize %></h3>
-<h3>Followed Up Yet? <%= @contact.followed_up.capitalize %></h3>
-<% unless @contact.notes == nil %>
+<h3>Thanked Yet? <%= @contact.thank_you.capitalize if @contact.thank_you %></h3>
+<h3>Followed Up Yet? <%= @contact.followed_up.capitalize if @contact.followed_up %></h3>
+<% if @contact.notes %>
   <h3>Notes:</h3> 
   <% @contact.nice_notes.each do |note| %>
     <ul>

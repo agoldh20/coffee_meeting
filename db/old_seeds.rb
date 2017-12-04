@@ -1,0 +1,22 @@
+# Contact.create!([
+#   {first_name: "John", last_name: "Jacobs", email: "johnjacobs81@yahoo.com", company: "The Confidental Company", met: "yes", followed_up: "no", thank_you: "yes", position: "CTO", notes: nil},
+#   {first_name: "Ramesh", last_name: "Gansesan", email: "email", company: "Applus Tech", met: "Yes", followed_up: "no", thank_you: "Yes", position: nil, notes: nil},
+#   {first_name: "Paul", last_name: "Kerston", email: "paul.kerston@united.com", company: "United Airlines", met: "no", followed_up: nil, thank_you: nil, position: nil, notes: nil},
+#   {first_name: "Steve", last_name: "Pucci", email: "steven.pucci@united.com", company: "United Airlines", met: "yes", followed_up: "no", thank_you: "yes", position: nil, notes: nil},
+#   {first_name: "Ahmet", last_name: "Bombaci", email: "ahmetbombaci@yahoo.com", company: "United Airlines", met: "Tomorrow 10am", followed_up: nil, thank_you: nil, position: nil, notes: nil},
+#   {first_name: "Ricardo", last_name: "Quesada", email: "rquesada@akurey.com", company: "Akurey", met: "No", followed_up: nil, thank_you: nil, position: "CTO", notes: nil},
+#   {first_name: "Eric", last_name: "Muehlstein", email: "muehlbucks@gmail.com", company: "Pico", met: "Yes", followed_up: "Need to again", thank_you: "Yes", position: "VP System Engineering", notes: "Put in touch with wife Joey, sent resume, need to follow up again"},
+#   {first_name: "Ed", last_name: "Chang", email: "localuser@gmail.com", company: "GoHealth", met: "Phone meeting", followed_up: "no", thank_you: "Yes", position: "CTO", notes: "research gitflow, how internet calls work, look at cheatsheat"},
+#   {first_name: "Cedric", last_name: "Hurst", email: "cedric@spantree.net", company: "Spantree", met: "Yes", followed_up: "no", thank_you: "Yes via slack", position: "Lead Principal Engineer", notes: "Connect with Dave Hoover, Chicago tech slack"},
+#   {first_name: "Ryan", last_name: "Gerry", email: "gerryster@gmail.com", company: "Blue Marble Payroll", met: "11/27 in Skokie time TBD", followed_up: nil, thank_you: nil, position: "Lead Developer", notes: nil},
+#   {first_name: "Sudhakar", last_name: "Avva", email: "sudhakar.avva@gmail.com", company: "Sears", met: "12:00 11/14, phone meeting", followed_up: nil, thank_you: nil, position: "Director Enginnering", notes: nil},
+#   {first_name: "Robert", last_name: "Allen", email: "robert.allen@zircote.com", company: "Houghton Mufflin Harcort", met: "Wednesday 11am", followed_up: nil, thank_you: nil, position: "Director Enginnering", notes: nil},
+#   {first_name: "David", last_name: "Vandergrift", email: "david@4degrees.ai", company: "4degrees", met: "Dec 5 @ 2pm, 1871", followed_up: nil, thank_you: nil, position: "CTO", notes: nil},
+#   {first_name: "David", last_name: "Neary", email: "davidmneary@icloud.com", company: "ICOMM", met: "Dec 1 in the am?", followed_up: nil, thank_you: nil, position: "VP Engineering", notes: nil},
+#   {first_name: "Michael", last_name: "Lennon", email: "mlennon3@gmail.com", company: "Thoughtworks", met: "11/16 @ 8:45", followed_up: nil, thank_you: nil, position: "Senior Developer", notes: nil},
+#   {first_name: "Michael", last_name: "Goldshmidt", email: "ultimasoft@yahoo.com", company: "Allstate", met: "11/21 12:00 @ Pita Inn", followed_up: nil, thank_you: nil, position: "Developer", notes: nil},
+#   {first_name: "Tim", last_name: "Rourke", email: "trourke@activecampaign.com", company: "Active Campaign", met: "Soon", followed_up: nil, thank_you: nil, position: "Lead Developer", notes: nil},
+#   {first_name: "Phil", last_name: "Vuollet", email: "philn5d@gmail.com", company: "Next Radio", met: "Reach out on Nov 27", followed_up: nil, thank_you: nil, position: "Senior Developer", notes: nil},
+#   {first_name: "Michael", last_name: "Rapken", email: "krik6413@gmail.com", company: "Press Ganey", met: "No", followed_up: "No", thank_you: "No", position: "CTO", notes: "Canceled after 4 reschedules...try again soon?"},
+#   {first_name: "Chelsea", last_name: "Paice", email: "chelsea.paice@gmail.com", company: "Sonoma Partners", met: "Yes", followed_up: "no", thank_you: "Yes", position: "Senior Developer", notes: "Sent resume, need to take sonoma test"}
+# ])
