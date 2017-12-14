@@ -1,6 +1,10 @@
 <h1>Contact Show</h1>
 
+<% if @contact.email %>
 <h3>Name/Email: <a href="mailto:<%= @contact.email %>?Subject=Adam%20Goldwater,%20following%20up%20with%20you"><%= @contact.first_name.capitalize %> <%= @contact.last_name.capitalize %></a></h3>
+<% else %>
+  <h3>Name: <%= @contact.first_name.capitalize %> <%= @contact.last_name.capitalize %> (No Email)</h3>
+<% end %>
 <h3>Position: <%= @contact.position.titleize if @contact.position %></h3>
 <h3>Company: <%= @contact.company.titleize %></h3>
 <h3>Met Yet? <%= @contact.met %></h3>
