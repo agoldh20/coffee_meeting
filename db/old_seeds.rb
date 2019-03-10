@@ -1,6 +1,6 @@
 # Contact.create!([
 #   {first_name: "John", last_name: "Jacobs", email: "johnjacobs81@yahoo.com", company: "The Confidental Company", met: "yes", followed_up: "no", thank_you: "yes", position: "CTO", notes: nil},
-#   {first_name: "Ramesh", last_name: "Gansesan", email: "email", company: "Applus Tech", met: "Yes", followed_up: "no", thank_you: "Yes", position: nil, notes: nil},
+#   {first_name: "Ramesh", last_name: "Gansesan", email: "ganesan.rameshkumar@gmail.com", company: "Applus Tech", met: "Yes", followed_up: "no", thank_you: "Yes", position: nil, notes: nil},
 #   {first_name: "Paul", last_name: "Kerston", email: "paul.kerston@united.com", company: "United Airlines", met: "no", followed_up: nil, thank_you: nil, position: nil, notes: nil},
 #   {first_name: "Steve", last_name: "Pucci", email: "steven.pucci@united.com", company: "United Airlines", met: "yes", followed_up: "no", thank_you: "yes", position: nil, notes: nil},
 #   {first_name: "Ahmet", last_name: "Bombaci", email: "ahmetbombaci@yahoo.com", company: "United Airlines", met: "Tomorrow 10am", followed_up: nil, thank_you: nil, position: nil, notes: nil},
@@ -18,5 +18,14 @@
 #   {first_name: "Tim", last_name: "Rourke", email: "trourke@activecampaign.com", company: "Active Campaign", met: "Soon", followed_up: nil, thank_you: nil, position: "Lead Developer", notes: nil},
 #   {first_name: "Phil", last_name: "Vuollet", email: "philn5d@gmail.com", company: "Next Radio", met: "Reach out on Nov 27", followed_up: nil, thank_you: nil, position: "Senior Developer", notes: nil},
 #   {first_name: "Michael", last_name: "Rapken", email: "krik6413@gmail.com", company: "Press Ganey", met: "No", followed_up: "No", thank_you: "No", position: "CTO", notes: "Canceled after 4 reschedules...try again soon?"},
-#   {first_name: "Chelsea", last_name: "Paice", email: "chelsea.paice@gmail.com", company: "Sonoma Partners", met: "Yes", followed_up: "no", thank_you: "Yes", position: "Senior Developer", notes: "Sent resume, need to take sonoma test"}
+#   {first_name: "Chelsea", last_name: "Paice", email: "chelsea.paice@gmail.com", company: "Sonoma Partners", met: "Yes", followed_up: "no", thank_you: "Yes", position: "Senior Developer", notes: "Sent resume, need to take sonoma test"},
+#   {first_name: "Michael", last_name: "Goldshmidt", email: "ultimasoft@yahoo.com", position: "Developer", company: "Allstate", met: "11/21 12:00 @ Pita Inn", thank_you: "", followed_up: "", notes: ""},
+#   {first_name: "Tim", last_name: "Rourke", email: "trourke@activecampaign.com", position: "Lead Developer", company: "Active Campaign", met: "Soon", thank_you: "", followed_up: "", notes: ""},
+#   {first_name: "Phil", last_name: "Vuollet", email: "philn5d@gmail.com", position: "Senior Developer", company: "Next Radio", met: "Reach out on Nov 27", thank_you: "", followed_up: "", notes: ""},
+#   {first_name: "Dave", last_name: "Hoover", email: "", position: "Founder DBC Chicago", company: "", met: "Yes", thank_you: "Yes", followed_up: "no", notes: "sent resume, follow up with in 2 weeks"},
+#   {first_name: "Noel", last_name: "Rappin", email: "noel@tablexi.com", position: "Senior Developer", company: "Table XI", met: "Yes", thank_you: "no", followed_up: "no", notes: "applied to jr dev position, follow up soon about apprenticeship postion"},
+#   {first_name: "Ian", last_name: "Kirksey", email: "", position: "Recruiter", company: "Midos", met: "Yes", thank_you: "Yes", followed_up: "no", notes: "gave list of companies to look at, gave me some names to reach out to"},
+#   {first_name: "Chris", last_name: "Powers", email: "chrisjpowers@gmail.com", position: "Director Enginnering", company: "Sprout Social", met: "Yes", thank_you: "Yes", followed_up: "No", notes: "Pro tdd, test test test, do more testing, test one last time"},
+#   {first_name: "Chris", last_name: "Abramson", email: "abramson50@gmail.com", position: "Director IT Securities", company: "Walgreens", met: "yes", thank_you: "yes", followed_up: "no", notes: "look into securites as another route into the field"},
+#   {first_name: "Tom", last_name: "Wilczak", email: "tom.wilczak@gmail.com", position: "Senior Consultant", company: "SPR", met: "yes", thank_you: "yes", followed_up: "yes", notes: ""}
 # ])

@@ -1,7 +1,7 @@
 <h1>Contact Show</h1>
 
-<% if @contact.email %>
-<h3>Name/Email: <a href="mailto:<%= @contact.email %>?Subject=Adam%20Goldwater,%20following%20up%20with%20you"><%= @contact.first_name.capitalize %> <%= @contact.last_name.capitalize %></a></h3>
+<% if @contact.email != '' %>
+  <h3>Name/Email: <a href="mailto:<%= @contact.email %>?Subject=Adam%20Goldwater,%20following%20up%20with%20you"><%= @contact.first_name.capitalize %> <%= @contact.last_name.capitalize %></a></h3>
 <% else %>
   <h3>Name: <%= @contact.first_name.capitalize %> <%= @contact.last_name.capitalize %> (No Email)</h3>
 <% end %>
@@ -19,7 +19,7 @@
   <% end %>
 <% end %>
 <div>
-  <%= link_to "Update", "/contacts/#{@contact.id}/edit"%>
+  <%= link_to "Edit", "/contacts/#{@contact.id}/edit"%>
 </div>
 
 <div>
